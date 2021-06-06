@@ -17,9 +17,9 @@ function loadWeather(e){
         h2.innerHTML = city.charAt(0).toUpperCase() + city.slice(1);
         console.log(unit);
         let newUnit;
-        if(unit === "c"){
+        if(unit === "C"){
             newUnit = "metric";
-        }else if(unit === "f"){
+        }else if(unit === "F"){
             newUnit = "imperial";
         }
         let key = "6501b9a4381a4e7eb6901f6addc12612";
